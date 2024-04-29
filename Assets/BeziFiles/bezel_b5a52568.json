@@ -1,0 +1,948 @@
+{
+  "bezel_objects": [
+    {
+      "overrides": null,
+      "id": "b5a52568-cc51-4158-bf59-879515217f0c--87ac3b77-3b40-43b3-bca2-f03f12fc7898",
+      "type": "DirectionalLight",
+      "lastWriter": "",
+      "lastUpdated": 1705558286734,
+      "name": "Directional light",
+      "parent": null,
+      "index": "Zz",
+      "isVisible": true,
+      "isLocked": false,
+      "collapsed": false,
+      "activeState": null,
+      "activeParentStateId": null,
+      "states": {},
+      "parentStates": {},
+      "startState": null,
+      "colliders": {},
+      "ttl": 0,
+      "asset": null,
+      "assetSource": null,
+      "isInstance": false,
+      "importedAnimations": {},
+      "behaviors": {},
+      "interactions": {},
+      "version": 231130,
+      "_metadata": {},
+      "position": {
+        "x": 2.874633580707409,
+        "y": 8.94427190999916,
+        "z": 3.4258548972000114
+      },
+      "rotation": {
+        "x": -1.2050110918456485,
+        "y": 0.2915773534922545,
+        "z": 0.20130364324780828
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "isScaleLinked": false,
+      "lastGeometryUpdated": 0,
+      "subdivisions": 0,
+      "parameters": {
+        "shadows": {
+          "isEnabled": true
+        },
+        "color": "#FFFFFF",
+        "intensity": 1,
+        "shouldShowHelper": true
+      },
+      "viewSettings": {
+        "castShadow": true,
+        "receiveShadow": true,
+        "side": 0
+      },
+      "isInteractive": true,
+      "layerOpacity": 1,
+      "activeImportedAnimation": null,
+      "urlKey": null,
+      "assetVersion": 0
+    },
+    {
+      "overrides": null,
+      "id": "43b2d426-e5a2-4a3e-b9b4-5ebee31e320f",
+      "type": "Plane",
+      "lastWriter": "9c32e7af-f1ca-4272-a7ee-6da1c81618ec",
+      "lastUpdated": 1714348888682,
+      "name": "panel1",
+      "parent": null,
+      "index": "Zr",
+      "isVisible": true,
+      "isLocked": false,
+      "collapsed": false,
+      "activeState": null,
+      "activeParentStateId": null,
+      "states": {},
+      "parentStates": {},
+      "startState": null,
+      "colliders": {},
+      "ttl": 0,
+      "asset": null,
+      "assetSource": null,
+      "isInstance": false,
+      "importedAnimations": {},
+      "behaviors": {},
+      "interactions": {},
+      "version": 231130,
+      "_metadata": {},
+      "position": {
+        "x": 0,
+        "y": -0.43710636333384995,
+        "z": 0.928696830092435
+      },
+      "rotation": {
+        "x": 1.5707963267948966,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "isScaleLinked": true,
+      "lastGeometryUpdated": 1714349457015,
+      "subdivisions": 0,
+      "parameters": {
+        "width": 3.3173170132047831,
+        "height": 0,
+        "depth": 1.639692556942697,
+        "radii": {
+          "tl": 0,
+          "tr": 0,
+          "br": 0,
+          "bl": 0
+        },
+        "bendAngle": 0,
+        "areDimensionsLinked": false,
+        "radiusSegments": 16,
+        "bendSegments": 16,
+        "bevelOffset": 0,
+        "bevelSegments": 4
+      },
+      "material": "306b9337-38fa-417c-b91f-4adfeae07f4c",
+      "viewSettings": {
+        "castShadow": true,
+        "receiveShadow": true,
+        "side": 0
+      },
+      "isInteractive": true,
+      "layerOpacity": 1,
+      "activeImportedAnimation": null,
+      "urlKey": null,
+      "assetVersion": 0
+    },
+    {
+      "overrides": null,
+      "id": "86cb49fa-3c4a-4fa5-80c0-eecb22eb2b21",
+      "type": "Plane",
+      "lastWriter": "9c32e7af-f1ca-4272-a7ee-6da1c81618ec",
+      "lastUpdated": 1714348893410,
+      "name": "panel2",
+      "parent": null,
+      "index": "Zq",
+      "isVisible": true,
+      "isLocked": false,
+      "collapsed": false,
+      "activeState": null,
+      "activeParentStateId": null,
+      "states": {},
+      "parentStates": {},
+      "startState": null,
+      "colliders": {},
+      "ttl": 0,
+      "asset": null,
+      "assetSource": null,
+      "isInstance": false,
+      "importedAnimations": {},
+      "behaviors": {},
+      "interactions": {},
+      "version": 231130,
+      "_metadata": {},
+      "position": {
+        "x": 0,
+        "y": -0.42969705310681344,
+        "z": 0.86870382218328668
+      },
+      "rotation": {
+        "x": 1.5707963267948963,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "isScaleLinked": true,
+      "lastGeometryUpdated": 1714349457023,
+      "subdivisions": 0,
+      "parameters": {
+        "width": 3.32,
+        "height": 0,
+        "depth": 1.6410187110187111,
+        "radii": {
+          "tl": 0,
+          "tr": 0,
+          "br": 0,
+          "bl": 0
+        },
+        "bendAngle": 0,
+        "areDimensionsLinked": true,
+        "radiusSegments": 16,
+        "bendSegments": 16,
+        "bevelOffset": 0,
+        "bevelSegments": 4
+      },
+      "material": "cfeaae29-9688-4ca1-b7ae-1c6b602d6897",
+      "viewSettings": {
+        "castShadow": true,
+        "receiveShadow": true,
+        "side": 0
+      },
+      "isInteractive": true,
+      "layerOpacity": 1,
+      "activeImportedAnimation": null,
+      "urlKey": null,
+      "assetVersion": 0
+    },
+    {
+      "overrides": null,
+      "id": "f3f39770-7afe-49a0-97be-f27394318d90",
+      "type": "Shape",
+      "lastWriter": "9c32e7af-f1ca-4272-a7ee-6da1c81618ec",
+      "lastUpdated": 1714348923009,
+      "name": "raftylogo11",
+      "parent": "310687d0-7897-49d8-89a8-2c77636d59b3",
+      "index": "Zl",
+      "isVisible": true,
+      "isLocked": false,
+      "collapsed": false,
+      "activeState": null,
+      "activeParentStateId": null,
+      "states": {},
+      "parentStates": {},
+      "startState": null,
+      "colliders": {},
+      "ttl": 0,
+      "asset": null,
+      "assetSource": null,
+      "isInstance": false,
+      "importedAnimations": {},
+      "behaviors": {},
+      "interactions": {},
+      "version": 231130,
+      "_metadata": {},
+      "position": {
+        "x": 6.591949208711867E-17,
+        "y": 1.0101218330880946E-17,
+        "z": 0.021292603864694337
+      },
+      "rotation": {
+        "x": 1.5707963267948963,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 5.64717875821422,
+        "y": 5.64717875821422,
+        "z": 5.64717875821422
+      },
+      "isScaleLinked": true,
+      "lastGeometryUpdated": 1714349457319,
+      "subdivisions": 0,
+      "parameters": {
+        "width": 0.515,
+        "height": 0,
+        "depth": 0.425,
+        "radii": {
+          "tl": 0,
+          "tr": 0,
+          "br": 0,
+          "bl": 0
+        },
+        "bendAngle": 0,
+        "areDimensionsLinked": false,
+        "radiusSegments": 16,
+        "bendSegments": 16,
+        "bevelOffset": 0,
+        "bevelSegments": 4
+      },
+      "material": "ef1a8458-f63b-4ff0-af8e-3b3d2ef235a3",
+      "viewSettings": {
+        "castShadow": true,
+        "receiveShadow": true,
+        "side": 0
+      },
+      "isInteractive": true,
+      "layerOpacity": 1,
+      "activeImportedAnimation": null,
+      "urlKey": "007706c0-813f-442d-95ea-67695cf83cd2",
+      "assetVersion": 0
+    },
+    {
+      "overrides": null,
+      "id": "96e5409e-5e02-4878-b3cd-1dd8c4a638ec",
+      "type": "Plane",
+      "lastWriter": "9c32e7af-f1ca-4272-a7ee-6da1c81618ec",
+      "lastUpdated": 1714348923009,
+      "name": "raftylogo2",
+      "parent": "310687d0-7897-49d8-89a8-2c77636d59b3",
+      "index": "Zm",
+      "isVisible": true,
+      "isLocked": false,
+      "collapsed": false,
+      "activeState": null,
+      "activeParentStateId": null,
+      "states": {},
+      "parentStates": {},
+      "startState": null,
+      "colliders": {},
+      "ttl": 0,
+      "asset": null,
+      "assetSource": null,
+      "isInstance": false,
+      "importedAnimations": {},
+      "behaviors": {},
+      "interactions": {},
+      "version": 231130,
+      "_metadata": {},
+      "position": {
+        "x": 6.591949208711867E-17,
+        "y": -9.6586926264091244E-19,
+        "z": -0.028549127697567456
+      },
+      "rotation": {
+        "x": 1.5707963267948963,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 5.64717875821422,
+        "y": 5.64717875821422,
+        "z": 5.64717875821422
+      },
+      "isScaleLinked": true,
+      "lastGeometryUpdated": 1714349457034,
+      "subdivisions": 0,
+      "parameters": {
+        "width": 0.515,
+        "height": 0,
+        "depth": 0.425,
+        "radii": {
+          "tl": 0,
+          "tr": 0,
+          "br": 0,
+          "bl": 0
+        },
+        "bendAngle": 0,
+        "areDimensionsLinked": false,
+        "radiusSegments": 16,
+        "bendSegments": 16,
+        "bevelOffset": 0,
+        "bevelSegments": 4
+      },
+      "material": "17d5d1a6-66ca-4941-a70d-6fc7e6aa9120",
+      "viewSettings": {
+        "castShadow": true,
+        "receiveShadow": true,
+        "side": 0
+      },
+      "isInteractive": true,
+      "layerOpacity": 1,
+      "activeImportedAnimation": null,
+      "urlKey": null,
+      "assetVersion": 0
+    },
+    {
+      "overrides": null,
+      "id": "bfda3a56-c7fd-4553-be07-090842653fac",
+      "type": "Plane",
+      "lastWriter": "9096b7e3-b5cf-4739-9137-b0b7819e3207",
+      "lastUpdated": 1714349530371,
+      "name": "raftylogo4",
+      "parent": "310687d0-7897-49d8-89a8-2c77636d59b3",
+      "index": "Zj",
+      "isVisible": true,
+      "isLocked": false,
+      "collapsed": false,
+      "activeState": null,
+      "activeParentStateId": null,
+      "states": {},
+      "parentStates": {},
+      "startState": null,
+      "colliders": {},
+      "ttl": 0,
+      "asset": null,
+      "assetSource": null,
+      "isInstance": false,
+      "importedAnimations": {},
+      "behaviors": {},
+      "interactions": {},
+      "version": 231130,
+      "_metadata": {},
+      "position": {
+        "x": 6.591949208711867E-17,
+        "y": 6.3311234045424165E-18,
+        "z": 0.0043136057592847443
+      },
+      "rotation": {
+        "x": 1.5707963267948963,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 5.64717875821422,
+        "y": 5.64717875821422,
+        "z": 5.64717875821422
+      },
+      "isScaleLinked": true,
+      "lastGeometryUpdated": 1714349457056,
+      "subdivisions": 0,
+      "parameters": {
+        "width": 0.515,
+        "height": 0,
+        "depth": 0.425,
+        "radii": {
+          "tl": 0,
+          "tr": 0,
+          "br": 0,
+          "bl": 0
+        },
+        "bendAngle": 0,
+        "areDimensionsLinked": false,
+        "radiusSegments": 16,
+        "bendSegments": 16,
+        "bevelOffset": 0,
+        "bevelSegments": 4
+      },
+      "material": "9ac1378f-7e28-4f39-9f78-8bd8b8a03800",
+      "viewSettings": {
+        "castShadow": true,
+        "receiveShadow": true,
+        "side": 0
+      },
+      "isInteractive": true,
+      "layerOpacity": 1,
+      "activeImportedAnimation": null,
+      "urlKey": null,
+      "assetVersion": 0
+    },
+    {
+      "overrides": null,
+      "id": "162686ae-bf2f-4f3e-9cd0-14f4ba17f2f5",
+      "type": "Plane",
+      "lastWriter": "9096b7e3-b5cf-4739-9137-b0b7819e3207",
+      "lastUpdated": 1714349555473,
+      "name": "raftylogo4 1",
+      "parent": "310687d0-7897-49d8-89a8-2c77636d59b3",
+      "index": "Zi",
+      "isVisible": true,
+      "isLocked": false,
+      "collapsed": false,
+      "activeState": null,
+      "activeParentStateId": null,
+      "states": {},
+      "parentStates": {},
+      "startState": null,
+      "colliders": {},
+      "ttl": 0,
+      "asset": null,
+      "assetSource": null,
+      "isInstance": false,
+      "importedAnimations": {},
+      "behaviors": {},
+      "interactions": {},
+      "version": 231130,
+      "_metadata": {},
+      "position": {
+        "x": 6.591949208711867E-17,
+        "y": 6.3311234045424165E-18,
+        "z": 0.0043136057592847443
+      },
+      "rotation": {
+        "x": 1.5707963267948963,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 5.64717875821422,
+        "y": 5.64717875821422,
+        "z": 5.64717875821422
+      },
+      "isScaleLinked": true,
+      "lastGeometryUpdated": 1714349553394,
+      "subdivisions": 0,
+      "parameters": {
+        "width": 0.515,
+        "height": 0,
+        "depth": 0.425,
+        "radii": {
+          "tl": 0,
+          "tr": 0,
+          "br": 0,
+          "bl": 0
+        },
+        "bendAngle": 0,
+        "areDimensionsLinked": false,
+        "radiusSegments": 16,
+        "bendSegments": 16,
+        "bevelOffset": 0,
+        "bevelSegments": 4
+      },
+      "material": "28425e86-c76a-4f49-b672-14e90e923042",
+      "viewSettings": {
+        "castShadow": true,
+        "receiveShadow": true,
+        "side": 0
+      },
+      "isInteractive": true,
+      "layerOpacity": 1,
+      "activeImportedAnimation": null,
+      "urlKey": null,
+      "assetVersion": 0
+    },
+    {
+      "overrides": null,
+      "id": "310687d0-7897-49d8-89a8-2c77636d59b3",
+      "type": "Group",
+      "lastWriter": "9c32e7af-f1ca-4272-a7ee-6da1c81618ec",
+      "lastUpdated": 1714348925918,
+      "name": "logo",
+      "parent": null,
+      "index": "Zs",
+      "isVisible": true,
+      "isLocked": false,
+      "collapsed": false,
+      "activeState": null,
+      "activeParentStateId": null,
+      "states": {},
+      "parentStates": {},
+      "startState": null,
+      "colliders": {},
+      "ttl": 0,
+      "asset": null,
+      "assetSource": null,
+      "isInstance": false,
+      "importedAnimations": {},
+      "behaviors": {},
+      "interactions": {},
+      "version": 231130,
+      "_metadata": {},
+      "position": {
+        "x": 0.00925928249811614,
+        "y": 0,
+        "z": 1.0117247253667709
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "isScaleLinked": false,
+      "lastGeometryUpdated": 0,
+      "subdivisions": 0,
+      "parameters": {
+        "helperType": "NONE"
+      },
+      "viewSettings": {
+        "castShadow": true,
+        "receiveShadow": true,
+        "side": 0
+      },
+      "isInteractive": true,
+      "layerOpacity": 1,
+      "activeImportedAnimation": null,
+      "urlKey": null,
+      "assetVersion": 0
+    },
+    {
+      "overrides": null,
+      "id": "d4232060-0892-495b-9f24-d9440ee368e4",
+      "type": "Plane",
+      "lastWriter": "9c32e7af-f1ca-4272-a7ee-6da1c81618ec",
+      "lastUpdated": 1714348956280,
+      "name": "button1",
+      "parent": "c45da726-cd3b-43d5-bbad-aff7ce94a4f9",
+      "index": "Zm",
+      "isVisible": true,
+      "isLocked": false,
+      "collapsed": false,
+      "activeState": null,
+      "activeParentStateId": null,
+      "states": {},
+      "parentStates": {},
+      "startState": null,
+      "colliders": {},
+      "ttl": 0,
+      "asset": null,
+      "assetSource": null,
+      "isInstance": false,
+      "importedAnimations": {},
+      "behaviors": {},
+      "interactions": {},
+      "version": 231130,
+      "_metadata": {},
+      "position": {
+        "x": 0,
+        "y": 0.0025449062264861766,
+        "z": 0.0075305232397793187
+      },
+      "rotation": {
+        "x": 1.5707963267948963,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "isScaleLinked": true,
+      "lastGeometryUpdated": 1714349457043,
+      "subdivisions": 0,
+      "parameters": {
+        "width": 1.0223312450111395,
+        "height": 0,
+        "depth": 0.84367141578589178,
+        "radii": {
+          "tl": 0,
+          "tr": 0,
+          "br": 0,
+          "bl": 0
+        },
+        "bendAngle": 0,
+        "areDimensionsLinked": true,
+        "radiusSegments": 16,
+        "bendSegments": 16,
+        "bevelOffset": 0,
+        "bevelSegments": 4
+      },
+      "material": "e8efb3b7-473b-4743-a3ea-bb12fd5999e9",
+      "viewSettings": {
+        "castShadow": true,
+        "receiveShadow": true,
+        "side": 0
+      },
+      "isInteractive": true,
+      "layerOpacity": 1,
+      "activeImportedAnimation": null,
+      "urlKey": null,
+      "assetVersion": 0
+    },
+    {
+      "overrides": null,
+      "id": "e9dcac86-9195-4075-91c8-5ada994936da",
+      "type": "Plane",
+      "lastWriter": "9c32e7af-f1ca-4272-a7ee-6da1c81618ec",
+      "lastUpdated": 1714349010134,
+      "name": "button2",
+      "parent": "c45da726-cd3b-43d5-bbad-aff7ce94a4f9",
+      "index": "Zl",
+      "isVisible": true,
+      "isLocked": false,
+      "collapsed": false,
+      "activeState": null,
+      "activeParentStateId": null,
+      "states": {},
+      "parentStates": {},
+      "startState": null,
+      "colliders": {},
+      "ttl": 0,
+      "asset": null,
+      "assetSource": null,
+      "isInstance": false,
+      "importedAnimations": {},
+      "behaviors": {},
+      "interactions": {},
+      "version": 231130,
+      "_metadata": {},
+      "position": {
+        "x": 0,
+        "y": -0.0013995170956878633,
+        "z": -0.0075305232397793187
+      },
+      "rotation": {
+        "x": 1.5707963267948963,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "isScaleLinked": true,
+      "lastGeometryUpdated": 1714349457051,
+      "subdivisions": 0,
+      "parameters": {
+        "width": 1.0796474962169182,
+        "height": 0,
+        "depth": 0.89097123474211681,
+        "radii": {
+          "tl": 0,
+          "tr": 0,
+          "br": 0,
+          "bl": 0
+        },
+        "bendAngle": 0,
+        "areDimensionsLinked": true,
+        "radiusSegments": 16,
+        "bendSegments": 16,
+        "bevelOffset": 0,
+        "bevelSegments": 4
+      },
+      "material": "57bf01e8-534e-408c-8061-d6ee110407c7",
+      "viewSettings": {
+        "castShadow": true,
+        "receiveShadow": true,
+        "side": 0
+      },
+      "isInteractive": true,
+      "layerOpacity": 1,
+      "activeImportedAnimation": null,
+      "urlKey": null,
+      "assetVersion": 0
+    },
+    {
+      "overrides": null,
+      "id": "c45da726-cd3b-43d5-bbad-aff7ce94a4f9",
+      "type": "Group",
+      "lastWriter": "9c32e7af-f1ca-4272-a7ee-6da1c81618ec",
+      "lastUpdated": 1714349178241,
+      "name": "button",
+      "parent": null,
+      "index": "Zn",
+      "isVisible": true,
+      "isLocked": false,
+      "collapsed": false,
+      "activeState": null,
+      "activeParentStateId": null,
+      "states": {
+        "1": {
+          "position": {
+            "x": 0,
+            "y": -0.85469278175632546,
+            "z": 1.0018282148034505
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "behaviors": {},
+          "material": {},
+          "parameters": {},
+          "name": "Hover"
+        },
+        "2": {
+          "position": {
+            "x": 0,
+            "y": -0.85469278175632546,
+            "z": 1.0018282148034505
+          },
+          "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "behaviors": {},
+          "material": {},
+          "parameters": {},
+          "name": "State 2"
+        }
+      },
+      "parentStates": {},
+      "startState": null,
+      "colliders": {},
+      "ttl": 0,
+      "asset": null,
+      "assetSource": null,
+      "isInstance": false,
+      "importedAnimations": {},
+      "behaviors": {},
+      "interactions": {
+        "f8544a6e-9a98-4d36-844b-e1d0013b069b": {
+          "trigger": {
+            "type": "animationTrigger.pointer",
+            "event": "animationEvent.hoverInside",
+            "targetEntityIds": [
+              "entity_self"
+            ]
+          },
+          "animations": {
+            "d0680e78-6800-4016-8d87-9988e844ba17": {
+              "id": "d0680e78-6800-4016-8d87-9988e844ba17",
+              "sceneEntityId": "entity_self",
+              "fromStateId": null,
+              "toStateId": "1",
+              "duration": 0.5
+            }
+          }
+        },
+        "c6b6ae2b-a9ae-462e-83c9-458fbd5bb78a": {
+          "trigger": {
+            "type": "animationTrigger.pointer",
+            "event": "animationEvent.hoverOutside",
+            "targetEntityIds": [
+              "entity_self"
+            ]
+          },
+          "animations": {
+            "4dacc7a5-e6f8-4bae-a19a-599c087ac9e3": {
+              "id": "4dacc7a5-e6f8-4bae-a19a-599c087ac9e3",
+              "sceneEntityId": "entity_self",
+              "fromStateId": "1",
+              "toStateId": null,
+              "duration": 0.5
+            }
+          }
+        },
+        "86a66fa4-d13b-4ec8-84b7-ca8b6f1d6bfe": {
+          "trigger": {
+            "type": "animationTrigger.pointer",
+            "event": "animationEvent.pointerDown",
+            "targetEntityIds": [
+              "entity_self"
+            ]
+          },
+          "animations": {
+            "7c17cbcb-55dd-4e27-864a-3fe86b35c88d": {
+              "id": "7c17cbcb-55dd-4e27-864a-3fe86b35c88d",
+              "sceneEntityId": "entity_self",
+              "fromStateId": null,
+              "toStateId": "2",
+              "duration": 0.5
+            }
+          }
+        },
+        "23c68154-3466-454e-8419-9ef2943b9cc5": {
+          "trigger": {
+            "type": "animationTrigger.pointer",
+            "event": "animationEvent.pointerDown",
+            "targetEntityIds": [
+              "entity_self"
+            ]
+          },
+          "animations": {
+            "075dd1ba-9095-4da6-b4b4-85a96d2067c5": {
+              "id": "075dd1ba-9095-4da6-b4b4-85a96d2067c5",
+              "sceneEntityId": "entity_self",
+              "fromStateId": null,
+              "toStateId": "2",
+              "duration": 0.5
+            }
+          }
+        },
+        "6c74d9f7-4023-4fe9-a8e4-18cd505bb055": {
+          "trigger": {
+            "type": "animationTrigger.pointer",
+            "event": "animationEvent.pointerUp",
+            "targetEntityIds": [
+              "entity_self"
+            ]
+          },
+          "animations": {
+            "70d661ae-c693-4993-bd74-996c6f9afad6": {
+              "id": "70d661ae-c693-4993-bd74-996c6f9afad6",
+              "sceneEntityId": "entity_self",
+              "fromStateId": "2",
+              "toStateId": null,
+              "duration": 0.5
+            }
+          }
+        }
+      },
+      "version": 231130,
+      "_metadata": {
+        "states": {
+          "1": {
+            "nodePosition": {
+              "x": 453.59999999999997,
+              "y": 58.399999999999977
+            }
+          },
+          "2": {
+            "nodePosition": {
+              "x": 434.53564835164832,
+              "y": 146.2247912087912
+            }
+          },
+          "Any State": {
+            "nodePosition": {
+              "x": 562.4,
+              "y": 88.799999999999955
+            }
+          },
+          "base": {
+            "nodePosition": {
+              "x": 300,
+              "y": 100.79999999999995
+            }
+          }
+        },
+        "interactions": {
+          "timelineIndicesByAnimationId": {
+            "d0680e78-6800-4016-8d87-9988e844ba17": "a0",
+            "4dacc7a5-e6f8-4bae-a19a-599c087ac9e3": "Zz",
+            "7c17cbcb-55dd-4e27-864a-3fe86b35c88d": "Zy",
+            "075dd1ba-9095-4da6-b4b4-85a96d2067c5": "Zx",
+            "70d661ae-c693-4993-bd74-996c6f9afad6": "Zw"
+          }
+        }
+      },
+      "position": {
+        "x": 0,
+        "y": -0.85469278175632546,
+        "z": 1.0433995002886307
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "isScaleLinked": false,
+      "lastGeometryUpdated": 0,
+      "subdivisions": 0,
+      "parameters": {
+        "helperType": "NONE"
+      },
+      "viewSettings": {
+        "castShadow": true,
+        "receiveShadow": true,
+        "side": 0
+      },
+      "isInteractive": true,
+      "layerOpacity": 1,
+      "activeImportedAnimation": null,
+      "urlKey": null,
+      "assetVersion": 0
+    }
+  ]
+}
