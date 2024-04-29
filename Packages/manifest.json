@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.bezel.unity": "https://github.com/bezi3d/bezi_unity_bridge.git?path=/BeziUnityBridgePlugin#main",
     "com.meta.xr.mrutilitykit": "64.0.0",
     "com.meta.xr.sdk.all": "64.0.0",
     "com.unity.collab-proxy": "2.2.0",
@@ -43,6 +44,16 @@
     "com.unity.modules.video": "1.0.0",
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
-    "com.unity.modules.xr": "1.0.0"
-  }
+    "com.unity.modules.xr": "1.0.0",
+    "com.atteneder.gltfast": "6.4.0"
+  },
+  "scopedRegistries": [
+    {
+      "name": "OpenUPM",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "com.atteneder"
+      ]
+    }
+  ]
 }

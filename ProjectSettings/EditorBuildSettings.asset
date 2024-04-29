@@ -6,13 +6,16 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Title.unity
+    guid: a4bcf73b4746b1943a99362ab28f128b
+  - enabled: 1
     path: Assets/Scenes/wawa.unity
     guid: d322f56117a5e6745964c3a8d2b23f27
   - enabled: 0
-    path: Assets/Samples/Meta MR Utility Kit/63.0.0/Virtual Home/VirtualHome.unity
+    path: Assets/Samples/Meta MR Utility Kit/64.0.0/Virtual Home/VirtualHome.unity
     guid: 89c9f2977ebcf294fabcd8a4b23e6858
   - enabled: 0
-    path: Assets/Samples/Meta MR Utility Kit/63.0.0/Basic/MRUKBase.unity
+    path: Assets/Samples/Meta MR Utility Kit/64.0.0/Basic/MRUKBase.unity
     guid: 21549dbcb1294de4fafd68fca195dda5
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
