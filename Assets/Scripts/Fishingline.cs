@@ -2,25 +2,36 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class VerletLine : MonoBehaviour
+public class Fishingline : MonoBehaviour
 {
-    public Transform StartPoint;
+     public Transform StartPoint;
     public Transform EndPoint;
+    public GameObject[] fishPrefabs; // Array of fish prefabs
+    private GameObject[] fishObjects; // Array of instantiated fish object
+    private Coroutine deactivateFishCoroutine;//make fish dissapear
+
     public int Segments = 10;
     public LineRenderer lineRenderer;
-    public float SegmentLength = 0.03f;
-    public float startSegmentLength = 0.03f;
-    public float currentTargetLength = 0.03f;
-    public float maxSegmentLength = 1f;
+    public float SegmentLength = 0.02f;
+    public float startSegmentLength = 0.01f;
+    public float currentTargetLength = 0.00f;
+    public float maxSegmentLength = 0.4f;
     public Vector3 Gravity = new Vector3(0, -9.81f, 0);
     // Num of Physics iterations
-    public int Iterations = 6;
+    public int Iterations = 1000;
     // higher is stiffer, lower is stretchier
-    public float tensionConstant = 10f;
-    public bool SecondHasRigidbody = false;
+    public float tensionConstant = 1000f;
+    public bool SecondHasRigidbody = true;
     public float LerpSpeed = 1f;
-    public float Delay = 3f;
+    public float Delay = 0.5f;
     private bool isChangingLength = false;
+
+    //make public bara
+    public int fishCount = 0; // Track the number of fish caught
+    private float fishAppearTime = 0; // Track the time when the fish appears
+    
+
+
 
     // Represents a segment of the line
     private class LineParticle
@@ -32,7 +43,7 @@ public class VerletLine : MonoBehaviour
 
     private List<LineParticle> particles;
     // Initializes the line
-    void Start()
+        void Start()
     {
         particles = new List<LineParticle>();
         for (int i = 0; i < Segments; i++)
@@ -41,10 +52,21 @@ public class VerletLine : MonoBehaviour
             particles.Add(new LineParticle { Pos = point, OldPos = point, Acceleration = Gravity });
         }
         lineRenderer.positionCount = particles.Count;
+
+         // Instantiate fish objects at the position of the EndPoint
+        fishObjects = new GameObject[fishPrefabs.Length];
+        for (int i = 0; i < fishPrefabs.Length; i++)
+        {
+            Vector3 objectPosition = Vector3.Lerp(StartPoint.position, EndPoint.position, 0.75f); // Adjust the ratio as needed
+            fishObjects[i] = Instantiate(fishPrefabs[i], EndPoint.position, Quaternion.identity);
+            fishObjects[i].SetActive(false); // Make fish objects initially inactive
+            fishObjects[i].transform.parent = transform; // Set fish object as child of VerletLine
+        }
     }
+
     void Update()
     {
-
+  
         if (isChangingLength)
         {
             SegmentLength = Mathf.Lerp(SegmentLength, currentTargetLength, LerpSpeed * Time.deltaTime);
@@ -61,7 +83,16 @@ public class VerletLine : MonoBehaviour
     public void CastOutlineFromController() //throwing fishing line
     {
 
-        StartCoroutine(IncreaseLengthAfterDelay(Delay));
+        StartCoroutine(IncreaseLengthAfterDelay(Delay)); //throw the lineee
+        StartCoroutine(ShowFishAfterDelay(Delay + 3.0f)); //wait for the fish to appearrr
+
+        // If there's already a coroutine running to deactivate fish, stop it
+        if (deactivateFishCoroutine != null)
+        {
+            StopCoroutine(deactivateFishCoroutine);
+        }
+
+        deactivateFishCoroutine = StartCoroutine(DeactivateFishAfterDelay(Delay + 7.0f));
 
     }
 
@@ -71,20 +102,70 @@ public class VerletLine : MonoBehaviour
         currentTargetLength = startSegmentLength;
         isChangingLength = true;
 
+        if (deactivateFishCoroutine != null)
+        {
+            StopCoroutine(deactivateFishCoroutine);
+        }
+
+        // Check if the fish was caught within 5 seconds
+        if (Time.time - fishAppearTime <= 5f)
+        {
+            // Increment fish count
+            fishCount++;
+        }
+
+        // DeactivateAllFish();
+
+    }
+
+  private IEnumerator ShowFishAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+
+        // Activate random fish object after a delay of 5 seconds
+        int randomIndex = Random.Range(0, fishObjects.Length);
+        fishObjects[randomIndex].SetActive(true);
+
+        // Record the time when the fish appears
+        fishAppearTime = Time.time;
     }
 
 
-    private IEnumerator IncreaseLengthAfterDelay(float delay)
+
+     private IEnumerator IncreaseLengthAfterDelay(float delay)
     {
         yield return new WaitForSeconds(delay);
         currentTargetLength = maxSegmentLength;
         isChangingLength = true;
     }
 
+    //call nono fish
+    private IEnumerator DeactivateFishAfterDelay(float delay) 
+    {
+        yield return new WaitForSeconds(delay);
+
+        // Deactivate all fish objects
+        DeactivateAllFish();
+    }
+
+    // Method to deactivate all fish objects
+    private void DeactivateAllFish() 
+    {
+        foreach (var fishObject in fishObjects)
+        {
+            fishObject.SetActive(false);
+        }
+    }
+
     // Update the line with Verlet Physics
     void FixedUpdate()
     {
     
+        for (int i = 0; i < fishObjects.Length; i++)
+        {
+            fishObjects[i].transform.position = EndPoint.position;
+        }
+
         foreach (var p in particles)
         {
             Verlet(p, Time.fixedDeltaTime);
