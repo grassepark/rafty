@@ -98,7 +98,7 @@ QualitySettings:
     antiAliasing: 2
     softParticles: 0
     softVegetation: 1
-    realtimeReflectionProbes: 1
+    realtimeReflectionProbes: 0
     billboardsFaceCameraPosition: 1
     vSyncCount: 0
     realtimeGICPUUsage: 25
@@ -125,6 +125,7 @@ QualitySettings:
     Nintendo Switch: 2
     PS4: 2
     PS5: 2
+    Server: 0
     Stadia: 2
     Standalone: 2
     WebGL: 1

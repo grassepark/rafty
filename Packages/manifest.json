@@ -1,8 +1,10 @@
 {
   "dependencies": {
+    "com.atteneder.gltfast": "6.4.0",
     "com.bezel.unity": "https://github.com/bezi3d/bezi_unity_bridge.git?path=/BeziUnityBridgePlugin#main",
     "com.meta.xr.mrutilitykit": "64.0.0",
     "com.meta.xr.sdk.all": "64.0.0",
+    "com.meta.xr.sdk.interaction.ovr.samples": "64.0.0",
     "com.unity.collab-proxy": "2.2.0",
     "com.unity.ide.rider": "3.0.25",
     "com.unity.ide.visualstudio": "2.0.21",
@@ -44,8 +46,7 @@
     "com.unity.modules.video": "1.0.0",
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
-    "com.unity.modules.xr": "1.0.0",
-    "com.atteneder.gltfast": "6.4.0"
+    "com.unity.modules.xr": "1.0.0"
   },
   "scopedRegistries": [
     {

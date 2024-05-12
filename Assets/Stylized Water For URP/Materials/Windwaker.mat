@@ -49,7 +49,7 @@ Material:
     - REFRACTION: 0
     - SURFACE_FOAM: 1
     - WORLD_SPACE_UV: 0
-    - _Alpha: 0.00053692784
+    - _Alpha: 0
     - _IntersectionFoamBlend: 1
     - _IntersectionFoamDepth: 0.72
     - _IntersectionFoamScale: 0
@@ -73,7 +73,7 @@ Material:
     - _SurfaceFoamColor2: {r: 1, g: 1, b: 1, a: 0.3764706}
     - _SurfaceFoamMovement: {r: 0, g: 0.15, b: 0.1, a: 0.1}
     - _SurfaceFoamSampling: {r: 0.19, g: 1.42, b: 0, a: 0}
-    - _SurfaceFoamTilingAndOffset: {r: -1.2930303, g: -1.2930303, b: 0.7, a: 0.7}
+    - _SurfaceFoamTilingAndOffset: {r: -68.48967, g: -68.48967, b: 0.7, a: 0.7}
     - _WaterColorDeep: {r: 0.11925941, g: 0.63851327, b: 0.9433962, a: 0.31764707}
     - _WaterColorHorizon: {r: 0, g: 0.22745082, b: 0.8, a: 0.58431375}
     - _WaterColorShallow: {r: 0, g: 0.6313726, b: 1, a: 0.18431373}

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3296648283928889920}
   m_Layer: 0
   m_Name: wawalevel
-  m_TagString: Untagged
+  m_TagString: wawalevel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5319398664080556624}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.471, z: 0}
+  m_LocalPosition: {x: 0, y: 0.349, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -168,7 +168,7 @@ PrefabInstance:
     - target: {fileID: -5754084199372789682, guid: e246b2fd10c495344b1e225de21a6edb, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 3859192021068367919, guid: e246b2fd10c495344b1e225de21a6edb, type: 3}
     - target: {fileID: 919132149155446097, guid: e246b2fd10c495344b1e225de21a6edb, type: 3}
       propertyPath: m_Name
       value: Couch
@@ -180,36 +180,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e246b2fd10c495344b1e225de21a6edb, type: 3}
   m_PrefabInstance: {fileID: 4897343092141020750}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &5708227082308971295 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e246b2fd10c495344b1e225de21a6edb, type: 3}
-  m_PrefabInstance: {fileID: 4897343092141020750}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &416462693930975746
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5708227082308971295}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4742b14568ebe046b7f09d66dbfdf78, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PivotOffset: {x: 0, y: 0, z: 0}
-  ScalingX: 1
-  BorderXNegative: 0.32
-  BorderXPositive: 0.82
-  ScalingY: 1
-  BorderYNegative: 0.01
-  BorderYPositive: 0.12
-  ScalingZ: 0
-  BorderZNegative: 0.01
-  BorderZPositive: 0.01
-  StretchCenter: 0
-  UpdateInPlayMode: 1
-  OriginalMesh: {fileID: 3859192021068367919, guid: e246b2fd10c495344b1e225de21a6edb, type: 3}
 --- !u!1001 &8163489465021828684
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -223,15 +193,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fd892bfe167feaf4ba38e71abfa8b269, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.53362
+      value: 0.27622455
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fd892bfe167feaf4ba38e71abfa8b269, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.73383427
+      value: 0.3850781
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fd892bfe167feaf4ba38e71abfa8b269, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.53362
+      value: 0.2870838
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fd892bfe167feaf4ba38e71abfa8b269, type: 3}
       propertyPath: m_LocalPosition.x
@@ -239,7 +209,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fd892bfe167feaf4ba38e71abfa8b269, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.351
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fd892bfe167feaf4ba38e71abfa8b269, type: 3}
       propertyPath: m_LocalPosition.z

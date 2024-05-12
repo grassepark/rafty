@@ -6,6 +6,16 @@ TagManager:
   tags:
   - Oar
   - wawa
+  - hand
+  - raft
+  - grabbed
+  - caught
+  - mainraft
+  - FxTemporaire
+  - wawalevel
+  - splash
+  - SamplesInfoPanel
+  - Grabbed
   layers:
   - Default
   - TransparentFX
